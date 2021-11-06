@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --header-height: 4.375rem;
+
+    /* colors */
+    --hue: 60;
+    /* HSL color mode */
+    --base-color-1: hsl(var(--hue) 36% 57%);
+    --base-color-second-1: hsl(var(--hue) 65% 88%);
+    --base-color-alt-1: hsl(var(--hue) 57% 53%);
+    --title-color-1: hsl(var(--hue) 41% 25%);
+    --text-color-1: hsl(0 0% 46%);
+    --text-color-light-1: hsl(0 0% 98%);
+    --body-color-1: hsl(0 0% 98%);
+    --products-bg-color: hsl(var(--hue) 50% 46%);
+    /*fonts*/
+    --title-font-size-1: 1.25rem;
+    --menu-font-size-1: 1.1rem;
+    --subtitle-font-size-1: 2rem;
+    --product-font-size-1: 3rem;
+    --title-font-1: 'Poppins', sans-serif;
+    --body-font-1: 'DM Sans', sans-serif;
+}
+
+
+
+
+div nav div ul li.nav-item{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+    margin-right: 20px;
+}
+.btn-header{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700px;
+    padding: 0.6rem 2rem .6rem 2rem;
+    font-family: 'Raleway', sans-serif;    
+    background-color: #000000;
+}
+.presentation{
+    background-color: #E5E5E5;
+    padding: 5rem;
+
+}
+.title-text{
+    font-weight: 700px;
+}
+
+.title-text, p.description{
+    max-width: 570px;
+    margin-left: 5rem;
+    font-family: 'Raleway', sans-serif;
+}
+p.description{
+    font-size: 1.25rem;
+    font-weight: 400px;
+}
+button.description{
+    margin-left: 5rem;
+}
+.topic{
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    
+}
+.topic-container{
+    margin-bottom: 10.43rem;
+}
+.topic-info{
+    max-width: 377px;
+    margin-left: 5rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400px;
+}
+.challenge{
+    max-width: 500px;
+    margin-top: 9.06rem;
+}
+.work-done{
+    max-width: 341px;
+}
+i{
+    font-size: 2rem;
+    margin-right: 1.31rem;
+}
+ul.work-items{
+    padding: 0;
+    list-style: none;
+}
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700px;
+}
