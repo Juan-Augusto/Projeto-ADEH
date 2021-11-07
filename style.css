@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish&family=Prompt:wght@700&display=swap');
 
+@media (max-width: 480px) {
+    .topic-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topic-container #our-challenge {
+        max-width: 100%;
+        margin-left: 10px;
+    }
+
+    .topic-container #challenge-img {
+        margin-top: 10px;
+    }
+
+    .topic-container #cases {
+        max-width: 100%;
+        margin-left: 10px;
+        margin-right: 80px;
+        margin-top: 20px;
+    }
+
+    .topic-container #death-num {
+        max-width: 90%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -42,20 +71,28 @@ div nav div ul li.nav-item{
     font-weight: 700px;
     padding: 0.6rem 2rem .6rem 2rem;
     font-family: var(--body-font-1);    
-    background-color: #000000;
+    background-color: #635cbd;
 }
+
+.btn-header:hover{
+    background-color: #6852ee;
+}
+
 .slider-standard{
     display: flex;
     justify-content: space-between;
 }
+
 .presentation{
     background-color: #e5e5e5;
     padding: 5rem;
 }
+
 .slider-presentation{
     max-width: 350px;
     right: 30px;
 }
+
 .title-section{
     background-image: url(images/background-2.png);
     background-repeat: no-repeat;
@@ -63,26 +100,28 @@ div nav div ul li.nav-item{
     background-position-y: -60px;
     max-width: 700px;
 }
+
 .title-text{
     font-weight: bolder;
     font-family: var(--title-font-1);
 
 }
 
-
 .title-text, p.description{
     max-width: 600px;
     margin-left: 5rem;
 }
+
 p.description{
     font-size: 1.25rem;
     font-weight: 400px;
     font-family: var(--body-font-1);
-
 }
+
 button.description{
     margin-left: 5rem;
 }
+
 .rainbow{
     background-image: url(images/background-3.png);
     background-repeat: no-repeat;
@@ -93,23 +132,66 @@ button.description{
 .topic{
     margin-left: 5rem;
     margin-bottom: 1rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--body-font-1);
     font-weight: bold;
-    
 }
+
 .topic-container{
     margin-bottom: 10.43rem;
 }
+
 .topic-info{
     max-width: 377px;
     margin-left: 5rem;
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--body-font-1);
     font-weight: 400px;
 }
-.challenge{
+
+.topic-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#our-challenge {
+    max-width: 30%;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-size: 18px;
+}
+
+#challenge-img {
+    margin-top: 50px;
+}
+
+#cases {
+    max-width: 10%;
+    margin-left: 50px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+#cases h2 {
+    color: #e55555;
+    font-weight: bold;
+}
+
+#death-num {
+    max-width: 10%;
+    margin-top: 150px;
+    margin-left: 80px;
+    text-align: right;
+}
+
+#death-num h2 {
+    color: #e55555;
+    font-weight: bold;
+    text-align: right;
+    
+}
+/*.challenge{
     max-width: 500px;
     margin-top: 9.06rem;
-}
+}*/
 .work-done{
     max-width: 341px;
 }
