@@ -8,7 +8,8 @@
 
     .topic-container #our-challenge {
         max-width: 100%;
-        margin-left: 10px;
+        margin-right: 15;
+        margin-left: 15px;
     }
 
     .topic-container #challenge-img {
@@ -17,15 +18,41 @@
 
     .topic-container #cases {
         max-width: 100%;
-        margin-left: 10px;
-        margin-right: 80px;
         margin-top: 20px;
+        margin-right: 80px;
+        margin-left: 10px;
+        
+        
     }
 
     .topic-container #death-num {
         max-width: 90%;
         margin-top: 10px;
         margin-left: 10px;
+    }
+
+    .our-work {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .our-work #work-done {
+        max-width: 100%;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+
+    .our-work .work-done-content {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .work-done-content .work-done-content-ind {
+        max-width: 100%;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 }
 
@@ -57,8 +84,19 @@
     --body-font-1: 'Mulish', sans-serif;
 }
 
+h2 {
+    font-family: var(--title-font-1);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+}
 
-
+p {
+    font-family: var(--body-font-1);
+    font-size: 18px;
+    color: #000000;
+}
 
 div nav div ul li.nav-item{
     font-family: var(--body-font-1);
@@ -192,9 +230,49 @@ button.description{
     max-width: 500px;
     margin-top: 9.06rem;
 }*/
-.work-done{
+
+.our-work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work-done {
+    max-width: 40%;
+    margin-left: 40px;
+    margin-right: 70px;
+}
+
+.work-done-content {
+    display: flex;
+    max-width: 50%;
+    
+}
+
+.work-done-content h3 {
+    font-family: var(--title-font-1);
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.work-done-content p {
+    font-family: var(--body-font-1);
+    font-size: 14px;
+    color: #000000;
+}
+
+.work-done-content-ind {
+    max-width: 20%;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+
+
+/*.work-done{
     max-width: 341px;
 }
+
 i{
     font-size: 2rem;
     margin-right: 1.31rem;
@@ -207,4 +285,4 @@ li{
     font-family: 'Raleway', sans-serif;
     font-size: 1.125rem;
     font-weight: 700px;
-}
+}*/
