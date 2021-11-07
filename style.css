@@ -40,6 +40,7 @@
         max-width: 100%;
         margin-right: 10px;
         margin-left: 10px;
+        margin-right: 10px;
         
     }
 
@@ -53,6 +54,16 @@
         max-width: 100%;
         margin-right: 15px;
         margin-left: 15px;
+    }
+
+    .history .hist-conteiner {
+        max-width: 100%;
+        margin-left: 15px;
+        line-height: 1.5rem;
+    }
+
+    #title-hist h2 {
+        margin-left: -40px;
     }
 }
 
@@ -95,6 +106,15 @@ h2 {
 p {
     font-family: var(--body-font-1);
     font-size: 18px;
+    color: #000000;
+}
+
+h4 {
+    font-family: var(--title-font-1);
+    font-style: normal;
+    font-weight:300;
+    font-size: 20px;
+    line-height: 120%;
     color: #000000;
 }
 
@@ -286,3 +306,26 @@ li{
     font-size: 1.125rem;
     font-weight: 700px;
 }*/
+
+#title-hist {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.history {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hist-conteiner {
+    max-width: 20%;
+    margin-left: 50px;
+    line-height: 1.5rem;
+}
+
+.hist-conteiner p {
+    font-family: var(--body-font-1);
+    font-size: 14px;
+    color: #000000;
+}
