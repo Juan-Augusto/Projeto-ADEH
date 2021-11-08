@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Prompt:wght@700&display=swap');
-
 @media (max-width: 480px) {
     .topic-container {
         display: flex;
@@ -72,10 +70,15 @@ div nav div ul li.nav-item{
     padding: 0.6rem 2rem .6rem 2rem;
     font-family: var(--body-font-1);    
     background-color: #635cbd;
+    transition: .3s;
+    box-shadow: 3px 3px 5px #8a8a8a;
 }
 
 .btn-header:hover{
     background-color: #6852ee;
+    box-shadow: .5px .5px 1px #8a8a8a;
+    transform: translateY(-.5px);
+
 }
 
 .slider-standard{
@@ -84,7 +87,8 @@ div nav div ul li.nav-item{
 }
 
 .presentation{
-    background-color: #e5e5e5;
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
     padding: 5rem;
 }
 
@@ -93,13 +97,6 @@ div nav div ul li.nav-item{
     right: 30px;
 }
 
-.title-section{
-    background-image: url(images/background-2.png);
-    background-repeat: no-repeat;
-    background-position-x: -843px;
-    background-position-y: -60px;
-    max-width: 700px;
-}
 
 .title-text{
     font-weight: bolder;
@@ -122,15 +119,8 @@ button.description{
     margin-left: 5rem;
 }
 
-.rainbow{
-    background-image: url(images/background-3.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: -10px;
-}
 
 .topic{
-    margin-left: 5rem;
     margin-bottom: 1rem;
     font-family: var(--body-font-1);
     font-weight: bold;
@@ -142,7 +132,6 @@ button.description{
 
 .topic-info{
     max-width: 377px;
-    margin-left: 5rem;
     font-family: var(--body-font-1);
     font-weight: 400px;
 }
@@ -152,59 +141,84 @@ button.description{
     flex-wrap: wrap;
 }
 
+
+
+
 #our-challenge {
-    max-width: 30%;
-    margin-left: 50px;
-    margin-top: 60px;
-    font-size: 18px;
+    max-width: 400px;
+    margin-top: 9.06rem;
+    margin-left: 5rem;
 }
 
 #challenge-img {
-    margin-top: 50px;
+    margin-top: 91px;
 }
 
 #cases {
-    max-width: 10%;
-    margin-left: 50px;
-    margin-right: 80px;
-    margin-top: 40px;
+    max-width: 146px;
+    margin: 113px 80px 0 50px;
 }
-
-#cases h2 {
+#cases h2, 
+#death-num h2{
     color: #e55555;
-    font-weight: bold;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: 'Prompt', sans-serif;
 }
-
 #death-num {
-    max-width: 10%;
-    margin-top: 150px;
+    max-width: 120px;
+    margin-top: 250px;
     margin-left: 80px;
     text-align: right;
 }
-
-#death-num h2 {
-    color: #e55555;
-    font-weight: bold;
-    text-align: right;
+.work-standard{
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+}
+.work-container{
+    max-width: 370px;
+    margin-left: 5rem;
+}
+.items-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 696px;
+}
+.card-standard{
+    max-width: 170px;
+}
+.items-section h3{
+    font-size: 16px;
+    font-weight: bolder;
+    font-family: var(--body-font-1);
+    max-width: 170px;
     
 }
-/*.challenge{
-    max-width: 500px;
-    margin-top: 9.06rem;
-}*/
-.work-done{
-    max-width: 341px;
+.exception{
+    max-width: 128px !important;
 }
-i{
-    font-size: 2rem;
-    margin-right: 1.31rem;
+.items-section p{
+    font-size: 14px;
+    font-family: var(--body-font-1);
 }
-ul.work-items{
-    padding: 0;
-    list-style: none;
+.icon{
+    max-width: 86px;
+}  
+.historia{
+    margin-top: 140px;
 }
-li{
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.125rem;
-    font-weight: 700px;
+.divider{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-image: url(images/line-timeline.png);
+    background-size: 3000px;
+    background-repeat: no-repeat;
+    background-position-y: 30px;
+    margin-top: 3rem;
 }
+
+.timeline{
+    max-width: 75.5px;
+    margin-left: 5rem;
+}
+
