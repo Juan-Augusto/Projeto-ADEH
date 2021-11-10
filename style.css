@@ -93,11 +93,9 @@ div nav div ul li.nav-item{
 
 .presentation{
     background-image: url(images/background.png);
-    -webkit-background-size: cover;
-    background-position: 50% 50%;
+    background-repeat: no-repeat;
     padding: 5rem;
-    margin: 2em 0em 0em 0em;
-
+    background-size: cover;
 }
 
 .slider-presentation{
