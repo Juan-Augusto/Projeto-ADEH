@@ -95,6 +95,8 @@ div nav div ul li.nav-item{
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     padding: 5rem;
+    background-size: cover;
+    margin: 2em 0em 0em 0em;
 }
 
 .slider-presentation{
@@ -127,7 +129,7 @@ button.description{
 
 .topic{
     margin-bottom: 1rem;
-    font-family: var(--body-font-1);
+    font-family: var(--title-font-1);
     font-weight: bold;
 }
 
@@ -161,8 +163,9 @@ button.description{
 
 #cases {
     max-width: 146px;
-    margin: 113px 80px 0 50px;
+    margin: 113px 40px 0 50px;
 }
+.topic h2,
 #cases h2, 
 #death-num h2{
     color: #e55555;
@@ -173,7 +176,7 @@ button.description{
 #death-num {
     max-width: 120px;
     margin-top: 250px;
-    margin-left: 80px;
+    margin-left: 50px;
     text-align: right;
 }
 .work-standard{
