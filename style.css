@@ -168,20 +168,6 @@
 }
 
 
-li.nav-item{
-    background-color: var(--text-color-1);
-    margin-right: .8rem;
-    border-radius: 8px;
-    transition: .4s;
-    box-shadow: 5px 5px 5px  #979797;
-}
-li.nav-item:hover{
-    background-color: var(--title-color-1);
-    transform: translateY(-.8px);
-    box-shadow: 2px 2px 5px  #979797;
-
-}
-
 div nav div ul li.nav-item{
     font-family: var(--body-font-1);
     font-weight: 400px;
