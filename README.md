@@ -31,4 +31,3 @@
   </p>
   
   <h3 id="acesso">Para acessar o site e conhecer mais sobre esse projeto <a href="https://projeto-adeh.netlify.app/">clique aqui</a>.</h3>
-
