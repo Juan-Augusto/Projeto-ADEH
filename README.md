@@ -4,7 +4,6 @@
 </div>
 
 <div align="center">
-  <a href=""><span>Scrum</span></a>  |
   <a href=""><span>Projeto</span></a>  |
   <a href=""><span>Tecnologias</spqan></a>  |
   <a href=""><span>Execução</span></a> 
