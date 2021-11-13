@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 @media (max-width: 990px) {
     h1.title-text, p.description{
         max-width: 450px !important;
@@ -64,8 +69,8 @@
     .topic-container #cases {
         max-width: 140px;
         position: absolute;
-        top: 1460px;
-        left: 30px;
+        top: 1510px;
+        left: 0px;
         
     }
     .topic-title-1{
@@ -116,7 +121,9 @@
     }
     .support-item,
     .support-item img{
-        max-width: 300px !important;
+        max-width: 250px !important;
+        margin-right: 0 !important;
+        padding: 5px;
     }
     .support-item h2,
     .support-item h4{
@@ -139,11 +146,7 @@
     }
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 :root{
     --header-height: 4.375rem;
 
@@ -363,6 +366,7 @@ button.description{
 .support p{
     max-width: 470px;
     font-size: 18px;
+    margin-right: 2rem;
 }
 .support img{
     max-width: 500px;
