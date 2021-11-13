@@ -75,7 +75,7 @@ div nav div ul li.nav-item {
     border-radius: 4px;
     width: 170px;
     border: none;
-    margin-left: 7%;
+    margin-left: 8%;
 }
 .btn-header1 {
     color: #fff;
@@ -89,8 +89,7 @@ div nav div ul li.nav-item {
     border-radius: 4px;
     width: 160px;
     border: none;
-    margin-left: 15%;
-    margin-top: 30px;
+    margin: 10% 0% 0% 15%;
 }
 
 nav{
